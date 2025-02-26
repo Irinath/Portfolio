@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+body{
+    background-color: #6246db;
+    color: black;
+}
+
+p{
+    color: #b78fdb;
+}
+
+footer{
+    background-color: #465adb;
+}
