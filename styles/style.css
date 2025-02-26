@@ -135,10 +135,11 @@ footer{
     font-family: var(--font-texto);
     font-size: var(--font-size);
     font-weight: 400;
-    display: flex;
-    align-items: center;
+    
+    
     /*flex-direction: row;
-    */
+    align-content:flex-end;
+    display: flex;*/
 }
 
 @media(max-width: 1080px){
@@ -157,5 +158,9 @@ footer{
 
     .presentacion__contenido{
         width: auto;
+    }
+
+    footer{
+        align-content:flex-end;
     }
 }
